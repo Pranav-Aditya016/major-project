@@ -1,0 +1,54 @@
+# ── Paper/document files (copyright / sensitive) ──────────────────────────────
+*.pdf
+*.docx
+*.doc
+
+# ── Medical imaging data (large binary files) ──────────────────────────────────
+*.nii
+*.nii.gz
+*.tar
+*.tar.gz
+*.zip
+*.rar
+
+# ── Python cache ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env
+*.env
+
+# ── macOS artifacts ────────────────────────────────────────────────────────────
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ── IDE ────────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Secrets / credentials ──────────────────────────────────────────────────────
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
